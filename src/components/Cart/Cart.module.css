@@ -1,0 +1,19 @@
+.cart {
+  max-width: 30rem;
+  /* 하단의 배경을 주석처리하면 -> card 공통속성 하늘색적용됨 */
+  background-color: #313131;
+  /* color: white; */
+  color: yellow;
+}
+
+.cart h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  color: beige;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
