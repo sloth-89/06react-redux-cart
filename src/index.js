@@ -6,6 +6,10 @@ import App from './App';
 import store from './store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Provider store={store}><App /></Provider>);
+root.render(
+    <Provider store={store}>
+        <App />
+    </Provider>
+    );
 
 // store 활용 기본 세팅
